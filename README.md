@@ -1,2 +1,2 @@
 # uStoreNG
-GitHub Pages
+Landing page for uStore Customer information
