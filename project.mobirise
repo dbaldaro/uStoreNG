@@ -48,17 +48,20 @@
     ],
     "uniqCompNum": 49,
     "versionPublish": "4.9.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "uStore NG - XMPie StoreFlow version 10",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "<script>\n// POST form data to zapier on submit\n$('#demorequest').submit(function(e){\n    e.preventDefault();\n    $.ajax({\n        url:'https://hooks.zapier.com/hooks/catch/124616/nzv6sp/',\n        type:'post',\n        data:$('#demorequest').serialize(),\n        success:function(){\n        }\n    });\n});\n</script>",
-        "html_before": "<html ng-app=\"xmp.app\">\n"
+        "html_before": ""
       },
       "components": [
         {
@@ -1256,9 +1259,9 @@
             }
           },
           "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Shw Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#474681\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://www.youtube.com/watch?v=uedCuVOlSuw&loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>You need to</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">\n                        SELL CUSTOMIZED MULTICHANNEL CAMPAIGNS DIRECT FROM THE STORE&nbsp;</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    uStore works in harmony with XMPie's platform so not only can configurable, or personalized print documents be created, but you can also offer entire multichannel campaigns to be configured and sold.</p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">More Info</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
-          "_cid": "rl5Fjxd1yq",
-          "_anchor": "features4-n",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Shw Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9f3e94\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://www.youtube.com/watch?v=HekPBLFw2u0&list=PLW9qm2gYQSyTM3m49XR2KDvumI2FNFq9c&index=2&loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>You need to</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">\n                        FREEFLOW CORE INTEGRATION AS STANDARD</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    Xerox® FreeFlow® Core is included within StoreFlow enabling lights out automation. Watch this short video to understand how FreeFlow Core can help automate the tasks associated with getting files ready to print.<br></p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">More Info</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
+          "_cid": "rl5EyXHs9W",
+          "_anchor": "features4-m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -1315,66 +1318,27 @@
             }
           },
           "_name": "features4",
-          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Shw Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9f3e94\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://www.youtube.com/watch?v=HekPBLFw2u0&list=PLW9qm2gYQSyTM3m49XR2KDvumI2FNFq9c&index=2&loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>You need to</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">\n                        FREEFLOW CORE INTEGRATION AS STANDARD</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    Xerox® FreeFlow® Core is included within StoreFlow enabling lights out automation. Watch this short video to understand how FreeFlow Core can help automate the tasks associated with getting files ready to print.<br></p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">More Info</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
-          "_cid": "rl5EyXHs9W",
-          "_anchor": "features4-m",
+          "_customHTML": "<section class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Shw Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">    \n        <input type=\"checkbox\" title=\"Media on Left/Right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#474681\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row main\">\n            <div class=\"col-md-6 image-element\">\n                <div mbr-video class=\"mbr-figure\">\n                    <iframe src=\"https://www.youtube.com/watch?v=uedCuVOlSuw&loop=0&autoplay=0\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-md-6 text-element\">\n                <div class=\"text-content\">\n                    <h4 class=\"mbr-section-subtitle mbr-fonts-style mbr-white align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>You need to</b></h4><b>\n                    <h2 class=\"mbr-title pt-2 mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-title\">\n                        SELL CUSTOMIZED MULTICHANNEL CAMPAIGNS DIRECT FROM THE STORE&nbsp;</h2>\n                    <p class=\"mbr-text pt-3 mbr-light mbr-fonts-style align-left mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text,.mbr-section-btn\">\n                    uStore works in harmony with XMPie's platform so not only can configurable, or personalized print documents be created, but you can also offer entire multichannel campaigns to be configured and sold.</p>\n                    <div class=\"mbr-section-btn pt-3 align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                         <a class=\"btn btn-md btn-white\" href=\"https://mobirise.com\">More Info</a>\n                    </div>\n                </b></div><b>\n            </b></div><b>\n        </b></div><b>\n    </b></div><b>          \n</b></section>",
+          "_cid": "rl5Fjxd1yq",
+          "_anchor": "features4-n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".form-control": {
-              "color": "@labelsColor !important",
-              "border": "none",
-              "border-radius": "0 !important",
-              "background-color": "transparent",
-              "padding": ".5rem 0rem",
-              "border-bottom": "1px solid @labelsColor",
-              "&:focus": {
-                "outline": "none",
-                "box-shadow": "none"
-              }
-            },
-            "input::-webkit-input-placeholder": {
-              "color": "@labelsColor"
-            },
-            "input::-moz-placeholder": {
-              "color": "@labelsColor"
-            },
-            "textarea::-webkit-input-placeholder": {
-              "color": "@labelsColor"
-            },
-            "textarea::-moz-placeholder": {
-              "color": "@labelsColor"
-            },
-            "textarea.form-control": {
-              "min-height": "83px"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "form3",
-          "_customHTML": "<section group=\"Forms & Maps\" class=\"form3\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"form-1 col-md-10 col-lg-8\">\n                <h2 mbr-theme-style=\"display-2\" class=\"mbr-fonts-style mbr-fonts-style mbr-section-title align-center\">\n                    REQUEST A DEMO</h2>\n                <h3 mbr-theme-style=\"display-5\" class=\"mbr-fonts-style mbr-fonts-style mbr-section-subtitle align-center\">If you would like to learn more about StoreFlow and see how it can help transform your business, then we would love the opportunity to show it to you. Just fill out your details in the spaces below, and we will be in touch.&nbsp;</h3>\n                <div class=\"form-wrap pt-4\" mbr-form>\n<!---Formbuilder Form--->\n<form action id=\"demorequest\" name=\"demorequest\" method=\"POST\" class=\"mbr-form form-with-styler\">\n<div class=\"form-row\">\n<div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n<div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">Oops...! some problem!</div>\n</div>\n<div class=\"dragArea form-row\">\n<div data-for=\"FirstName\" class=\"col-lg-6 form-group\">\n<input type=\"text\" name=\"FirstName\" placeholder=\"Name\" data-form-field=\"FirstName\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Lastname\" class=\"col-lg-6 form-group\">\n<input type=\"text\" name=\"Lastname\" placeholder=\"Surname\" data-form-field=\"Lastname\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"email\" class=\"col-lg-12 form-group\">\n<input type=\"email\" name=\"email\" placeholder=\"Email Address\" data-form-field=\"email\" mbr-theme-style=\"display-7\" class=\"form-control\" required=\"required\" value>\n</div>\n<div data-for=\"Company\" class=\"col-lg-12 form-group\">\n<input type=\"text\" name=\"Company\" placeholder=\"Company\" data-form-field=\"Company\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" value>\n</div>\n<div class=\"col-lg-12 form-group\" data-for=\"Phone\">\n<input type=\"text\" name=\"Phone\" placeholder=\"Phone Number\" data-form-field=\"Phone\" mbr-theme-style=\"display-7\" class=\"form-control\" value>\n</div>\n<div mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\" class=\"col-auto\">\n<a type=\"submit\" class=\"btn btn-primary\">Submit</a>\n</div>\n</div>\n</form><!---Formbuilder Form--->\n</div>\n            </div>\n        </div>\n   </div>\n</section>",
-          "_cid": "rlfCV4ApuH",
-          "_anchor": "form3-x",
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div class=\"resp-container\">\n    <iframe class=\"resp-iframe\" src=\"https://www.xmpie.com/ustore-form/\" allow=\"encrypted-media\" allowfullscreen=\"\"></iframe>\n</div>",
+          "_customCSS": ".resp-container {\n    position: relative;\n    overflow: hidden;\n    padding-top: 56.25%;\n}\n\n.resp-iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    border: 0;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-10",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -1456,20 +1420,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<div class=\"resp-container\">\n    <iframe class=\"resp-iframe\" src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen=\"\"></iframe>\n</div>",
-          "_customCSS": ".resp-container {\n    position: relative;\n    overflow: hidden;\n    padding-top: 56.25%;\n}\n\n.resp-iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    border: 0;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-10",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": []
         }
       ]
     }
