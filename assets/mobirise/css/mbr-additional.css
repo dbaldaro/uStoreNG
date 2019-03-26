@@ -981,7 +981,7 @@ body {
   width: 0;
   position: absolute;
   left: 1rem;
-  color: #e96188;
+  color: #9f3e94;
   top: 0.5rem;
   margin-right: 0.5rem;
   line-height: 1;
@@ -1020,7 +1020,7 @@ body {
     left: 0;
     right: 100%;
     bottom: -0.2em;
-    background: #e96188;
+    background: #9f3e94;
     height: 3px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1400,7 +1400,7 @@ body {
 .cid-rlOYL13b1f {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #474681;
+  background-color: #9f3e94;
 }
 .cid-rlOYL13b1f .mbr-section-subtitle {
   color: #767676;
@@ -1411,7 +1411,7 @@ body {
 .cid-rlOVKG9GoB {
   padding-top: 45px;
   padding-bottom: 45px;
-  background-color: #fac769;
+  background-color: #fac24a;
 }
 .cid-rlOVKG9GoB .mbr-section-subtitle {
   color: #767676;
