@@ -1782,10 +1782,18 @@ body {
     text-align: center !important;
   }
 }
+.cid-rlPuZXM33z {
+  padding-top: 90px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-rlPuZXM33z .mbr-section-subtitle {
+  color: #767676;
+}
 #custom-html-10 .resp-container {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 45.25%;
 }
 #custom-html-10 .resp-iframe {
   position: absolute;
